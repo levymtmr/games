@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '14.x'
       - name: Build CI
-        run: mpm ci
+        run: npm ci
       - name: Build project  
         run: npm run build
       - name: Deploy to gh-pages
